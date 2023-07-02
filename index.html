@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+ 
+</head>
+
+<body>
+    <header>
+      
+         <div class="logos">
+            <a href="#"><img class="Face" src="logos/facebook-01.png" alt="Facebook"></a>
+            <a href="#"><img class="Twit" src="logos/twiter-01-01-01.png" alt="Twitter"></a>
+            <a href="#"><img class="Ig" src="logos/instagram-01-01-01.png" alt="Instagram"></a>
+        </div>
+    </header>
+
+
+    <nav>
+        <button class="btn" onclick="loadSubPage('views/Blog.html')">My blog</button> &nbsp;
+        <button class="btn" onclick="loadSubPage('views/about.html')">About</button> &nbsp;
+        <button class="btn" onclick="loadSubPage('views/portfolio.html')">Portfolio</button> &nbsp;
+        <button class="btn" onclick="loadSubPage('views/admi.html')">Administrador</button>
+
+        <div id="subPageContainer"> </div>
+    </nav>
+
+
+
+
+    <div class="newsletter-container">
+        <h2>Suscríbete a nuestro boletín</h2>
+        <form id="newsletter-form">
+            <input type="email" id="email-input" placeholder="Ingresa tu correo electrónico" required>
+            <button type="submit">Suscribirse</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 My Blog. All rights reserved.</p>
+    </footer>
+
+
+
+    <script src="index.js"></script>
+
+
+</body>
+
+</html>
